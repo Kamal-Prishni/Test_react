@@ -5,7 +5,7 @@ function App() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/home/")
+    fetch("http://13.127.188.65/home/")
       .then((res) => {
         if (!res.ok) {
           throw new Error("API error");
